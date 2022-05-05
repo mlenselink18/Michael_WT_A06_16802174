@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Date Formats</title>
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+</head>
+<header>
+    <h1>Working With Nullish Coalescing Operator (??)</h1>
+</header>
+<br>
+<body>
+    <main> 
+        <section>
+            <form id="formDiscount">
+                <div>
+                    <label for="beginDate">Begin Date: </label>
+                    <input type="date" id="beginDate" autocomplete="off" name="beginDate" required>
+                    <span class="req"></span>
+                </div>
+                <div>
+                    <label for="endDate">End Date: </label>
+                    <input type="date" id="endDate" autocomplete="off" name="endDate" required>
+                    <span class="req"></span>
+                </div>
+                <div>
+                    <label for="daysBetween">Days Between: </label>
+                    <input type="text" id="daysBetween" name="daysBetween" readonly>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="js/Time.js" defer></script>
+</body>
+</html>
